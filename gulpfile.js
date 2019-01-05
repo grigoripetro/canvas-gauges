@@ -34,6 +34,7 @@ const semver = require('semver');
 const inject = require('gulp-inject-string');
 const version = require('./package.json').version;
 const plato = require('gulp-plato');
+const jack = require('gulp-babel');
 
 /**
  * @typedef {{argv: object}} yargs
